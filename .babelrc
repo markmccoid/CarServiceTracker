@@ -1,0 +1,16 @@
+{
+  "env": {
+    "production": {
+      "plugins": [
+        ["emotion", { "hoist": true }],
+        ["import", { "libraryName": "antd", "style": "css" }]
+        ]
+    },
+    "development": {
+      "plugins": [
+        ["emotion", { "sourceMap": true, "autoLabel": true }],
+        ["import", { "libraryName": "antd", "style": "css" }]
+      ]
+    }
+  }
+}

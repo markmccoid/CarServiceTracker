@@ -1,0 +1,42 @@
+.button {
+  padding: 1rem;
+  background: #1797cc;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+  color: white;
+  border: 1px solid darken(#1797cc, 5%);
+}
+
+.button--link {
+  @extend .button;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button--secondary {
+  background: #888;
+  border: 1px solid darken(#888, 5%);
+}
+.button--style-blank {
+  background: none;
+  border: none;
+}
+
+.button--size-xsmall {
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+.button--size-small {
+  font-size: 1.6rem;
+  padding: 1.1rem;
+}
+
+.button--size-medium {
+  font-size: 2.0rem;
+  padding: 1.2rem;
+}
+.button--size-large {
+  font-size: 2.5rem;
+  padding: 1.4rem;
+}
